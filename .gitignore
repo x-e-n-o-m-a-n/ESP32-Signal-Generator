@@ -1,0 +1,19 @@
+# Папка сборки (самое важное, занимает много места)
+/build/
+/components/
+
+# Файлы конфигурации (обычно их не коммитят, а используют sdkconfig.defaults)
+sdkconfig
+sdkconfig.old
+
+# Менеджер компонентов
+/managed_components/
+dependencies.lock
+/main/CMakeLists.txt
+
+# Настройки редакторов кода
+.vscode/
+.idea/
+*.swp
+__pycache__/
+CMakeLists.txt
